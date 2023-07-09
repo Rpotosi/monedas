@@ -1,0 +1,65 @@
+package Conversor;
+
+import javax.swing.JComboBox;
+import javax.swing.JOptionPane;
+
+public class CrearDivisa {
+	public static void main(String[] args) {
+		
+			/*
+			//Window Select Options Conversor
+			
+			String[] options = {"Conversor de Monedas", "Conversor Temperatura"};
+			JComboBox<String> comboBox = new JComboBox<>(options);
+			JOptionPane.showMessageDialog(null, comboBox, "Selecciona una opción", JOptionPane.QUESTION_MESSAGE);
+			*/
+			// Window Select Moneda
+			
+			String[] monedas = {"Dolar", "Euro", "Pesos"};
+			JComboBox<String> ComboBoxmoneda = new JComboBox<>(monedas);
+			JOptionPane.showMessageDialog(null, ComboBoxmoneda, "Selecciona una Moneda", JOptionPane.QUESTION_MESSAGE);
+			
+			String opcionSeleccionada = (String) ComboBoxmoneda.getSelectedItem();
+			
+			if (opcionSeleccionada.contains("Dolar")) {
+				
+			}
+			
+			System.out.println(opcionSeleccionada);
+		
+			
+			Divisa Dolar = new Divisa();
+			Dolar.valor=4.196;
+			
+					 
+			double Valor_Dolar;
+	
+			Valor_Dolar = Double.parseDouble(JOptionPane.showInputDialog("Digite un dolar")); 
+			JOptionPane.showMessageDialog(null, "El valor de Dolar es " + Dolar.valor);
+			
+			
+			
+			/*
+			Divisa Euro = new  Divisa();
+			Euro.valor=4.602;
+			
+			
+			
+			double Valor_Euro;
+			
+			Valor_Euro = Double.parseDouble(JOptionPane.showInputDialog("Digite un Euro"));
+			JOptionPane.showMessageDialog(null, "El valor del Euro es " + Euro.valor);
+			
+			Divisa pesos = new Divisa();
+			pesos.valor=0.02;
+		
+			double Valor_Peso;
+			
+			Valor_Peso = Double.parseDouble(JOptionPane.showInputDialog("Digite un peso"));
+			JOptionPane.showMessageDialog(null,"El valor del peso Colombiano es " + pesos.valor + " De dolar");
+			System.out.println(pesos.valor);
+			*/
+	}
+	
+
+}

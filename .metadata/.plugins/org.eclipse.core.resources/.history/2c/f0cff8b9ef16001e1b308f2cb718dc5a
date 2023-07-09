@@ -1,0 +1,29 @@
+package bytebank_heredado;
+
+public class Administrador extends Funcionario implements Autenticable {
+	
+	
+private String clave = "AluraCursosOnline";	
+
+@Override
+	public double getBonificacion() {
+		
+		return 0;
+	}
+
+@Override
+public void setClave(String clave) {
+	// TODO Auto-generated method stub
+	
+}
+
+@Override
+public boolean iniciarSesion(String Clave) {
+	if (this.clave == Clave) {
+		return true;
+	}
+	return false;
+	
+}
+
+}

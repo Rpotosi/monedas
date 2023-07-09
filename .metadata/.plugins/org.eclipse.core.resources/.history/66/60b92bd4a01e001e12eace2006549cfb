@@ -1,0 +1,27 @@
+package Conversor_Monedas;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Ingresa la cantidad de moneda de tu país: ");
+        double cantidad = scanner.nextDouble();
+
+        ConvertidorMoneda convertidor = new ConvertidorMoneda();
+
+        double cantidadDolares = convertidor.convertirADolar(cantidad);
+        System.out.println("Cantidad en Dólares: " + cantidadDolares);
+
+        double cantidadEuros = convertidor.convertirAEuro(cantidad);
+        System.out.println("Cantidad en Euros: " + cantidadEuros);
+
+        double cantidadLibras = convertidor.convertirALibra(cantidad);
+        System.out.println("Cantidad en Libras Esterlinas: " + cantidadLibras);
+
+        double cantidadYen = convertidor.convertirAYen(cantidad);
+        System.out.println("Cantidad en Yen Japonés: " + cantidadYen);
+
+        double cantidadWon = convertidor.convertirAWon(cantidad);
+        System.out.println("Cantidad en Won sur-coreano: " + cantidadWon);
+    }
+}

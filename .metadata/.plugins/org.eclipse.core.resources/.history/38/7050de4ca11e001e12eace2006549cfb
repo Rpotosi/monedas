@@ -1,0 +1,38 @@
+package Conversor_Monedas;
+
+import javax.swing.JOptionPane;
+
+public class Main {
+    public static void main(String[] args) {
+        ConvertidorMoneda convertidor = new ConvertidorMoneda();
+
+        String[] opciones = { "Dólar", "Euro", "Libra Esterlina", "Yen Japonés", "Won sur-coreano" };
+        String opcionSeleccionada = (String) JOptionPane.showInputDialog(null, "Seleccione una opción",
+                "Convertidor de Moneda", JOptionPane.QUESTION_MESSAGE, null, opciones, opciones[0]);
+
+        String inputCantidad = JOptionPane.showInputDialog(null, "Ingresa la cantidad de moneda de tu país:");
+        double cantidad = Double.parseDouble(inputCantidad);
+
+        double resultado = 0;
+
+        switch (opcionSeleccionada) {
+            case "Dólar":
+                resultado = convertidor.convertirADolar(cantidad);
+                break;
+            case "Euro":
+                resultado = convertidor.convertirAEuro(cantidad);
+                break;
+            case "Libra Esterlina":
+                resultado = convertidor.convertirALibra(cantidad);
+                break;
+            case "Yen Japonés":
+                resultado = convertidor.convertirAYen(cantidad);
+                break;
+            case "Won sur-coreano":
+                resultado = convertidor.convertirAWon(cantidad);
+                break;
+        }
+
+        JOptionPane.showMessageDialog(null, "Resultado de la conversión: " + resultado);
+    }
+}

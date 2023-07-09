@@ -1,0 +1,8 @@
+package Conversor;
+public class Divisas {
+	
+	double dolar;
+	double euro;
+	double pesos;
+
+}

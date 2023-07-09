@@ -1,0 +1,28 @@
+package bytebank_heredado;
+
+                   //Extiende de ->
+public class Gerente extends Funcionario implements Autenticable{  // esto es herencia //herada las caracteristicas de funcionario
+	
+	private String clave;
+
+	public double getBonificacion() {
+		System.out.println("Ejecutando desde Gerente ");
+		return 2000;  //Super permite llamar al metodo
+	}
+
+	@Override
+	public void setClave(String clave) {
+		this.clave = clave;
+		
+	}
+
+	@Override
+	public boolean iniciarSesion(String Clave) {
+		if (this.clave = clave != null) {
+			return true;
+		}
+		return false;
+		
+	}
+
+}

@@ -1,0 +1,15 @@
+package java_stack;
+
+public class TestCuentaConExcepcionChecked {
+
+	 public static void main(String[] args) {
+
+         Cuenta c = new Cuenta();
+         try {
+             c.depositar();
+         } catch(MiExcepcion ex) {
+             System.out.println("tratamiento ....");
+         }
+
+     }
+}

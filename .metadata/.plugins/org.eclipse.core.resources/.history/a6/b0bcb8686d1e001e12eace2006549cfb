@@ -1,0 +1,7 @@
+package Conversor;
+public class Divisa {
+	
+	String nombre;
+	double valor;
+	
+}

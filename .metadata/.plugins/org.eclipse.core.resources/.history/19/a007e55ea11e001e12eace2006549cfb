@@ -1,0 +1,35 @@
+
+package Conversor_Monedas;
+
+import javax.swing.JOptionPane;
+
+public class ConvertidorMoneda {
+	
+	double tipoCambioDolar = 0.84;  // Tipo de cambio de tu país a Dólar
+    double tipoCambioEuro = 0.71;  // Tipo de cambio de tu país a Euro
+    double tipoCambioLibra = 0.62;  // Tipo de cambio de tu país a Libra Esterlina
+    double tipoCambioYen = 91.74;  // Tipo de cambio de tu país a Yen Japonés
+    double tipoCambioWon = 990.57;  // Tipo de cambio de tu país a Won sur-coreano
+    
+    
+    public double convertirADolar(double cantidad) {
+        return cantidad * tipoCambioDolar;
+    }
+
+    public double convertirAEuro(double cantidad) {
+        return cantidad * tipoCambioEuro;
+    }
+
+    public double convertirALibra(double cantidad) {
+        return cantidad * tipoCambioLibra;
+    }
+
+    public double convertirAYen(double cantidad) {
+        return cantidad * tipoCambioYen;
+    }
+
+    public double convertirAWon(double cantidad) {
+        return cantidad * tipoCambioWon;
+    }
+
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="proyecto_bytebank.Cliente"/>
+    <fullyQualifiedTypeName name="proyecto_bytebank.Cuenta"/>
+    <fullyQualifiedTypeName name="bytebank_heredado.ControlBonificacion"/>
+    <fullyQualifiedTypeName name="bytebank_heredado.CuentaCorriente"/>
+    <fullyQualifiedTypeName name="bytebank_heredado.CuentaAhorros"/>
+    <fullyQualifiedTypeName name="bytebank_heredado.FuncionarioAutenticable"/>
+    <fullyQualifiedTypeName name="java.lang.AbstractMethodError"/>
+    <fullyQualifiedTypeName name="bytebank_heredado.SistemaInterno"/>
+    <fullyQualifiedTypeName name="bytebank_heredado.Gerente"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="bytebank_heredado.Administrador"/>
+    <fullyQualifiedTypeName name="bytebank_heredado.Autenticable"/>
+    <fullyQualifiedTypeName name="bytebank_heredado.Funcionario"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="javax.swing.DefaultRowSorter"/>
+    <fullyQualifiedTypeName name="bytebank_heredado.TestCuentaExceptionSaldo"/>
+    <fullyQualifiedTypeName name="bytebank_heredado.SaldoInsuficienteException"/>
+    <fullyQualifiedTypeName name="Conversor.CrearDolar"/>
+    <fullyQualifiedTypeName name="Conversor.Divisa"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="javax.swing.JComboBox"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+</qualifiedTypeNameHistroy>

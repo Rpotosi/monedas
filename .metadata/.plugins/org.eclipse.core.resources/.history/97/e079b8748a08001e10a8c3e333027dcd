@@ -1,0 +1,9 @@
+package sintaxe_variaveis_e_fluxo;
+
+public class EjemploCondicionales {
+	public static void main(String[] args) {  //main Control + spacio
+		
+		System.out.println();  //sysout Control + spacio
+	}
+
+}
